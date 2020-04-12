@@ -13,7 +13,30 @@
     border-radius: 10px;
 }
 
+.portfolio {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.contact {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+
+
 h1 {
+    
     font-family: 'Bangers', cursive;
     font-size: 30px;
     margin: 5px;
@@ -25,16 +48,22 @@ img {
     height: 300px; 
     float: left;
     margin-right: 10px;
+    
+}
+
+.pictures {
+
+    margin-left: 10px;
+    border-left: 10px;
 }
 
 
-.row {
+p {
     font-family: 'Bangers', cursive;
     text-align: justify;
     margin-left: 5px;
-
-
-    
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .column {
@@ -51,7 +80,6 @@ img {
     background-color: black;
     margin-top: 100px;
     height: 50px;
-    
 }
 
 
