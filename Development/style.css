@@ -1,5 +1,5 @@
 .body {
-    background-image: url('images/Galazy.jpg');
+    background-image: url('./images/Galazy.jpg');
     height: 100%;
 }
 
@@ -10,7 +10,7 @@
 .container {
     background-color: white;
     margin-top: 100px;
-    border-radius: 10px;  
+    border-radius: 10px;
 }
 
 h1 {
@@ -31,13 +31,27 @@ img {
 .row {
     font-family: 'Bangers', cursive;
     text-align: justify;
+    margin-left: 5px;
+
+
+    
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;    
+}
+
+
 .footer {
+    color: white;
     text-align: center;
     background-color: black;
     margin-top: 100px;
     height: 50px;
+    
 }
 
 
